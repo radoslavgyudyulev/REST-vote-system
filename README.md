@@ -1,5 +1,7 @@
 # REST-vote-system
 
+USE >
+
 There is three endpoins :
     "POST"
     /api/create => Accept three params : q,a1,a1 and return obj with access token
@@ -16,6 +18,8 @@ There is three endpoins :
     "_id": "5b798326d509d04c5b887202",
     "token": "OXMkOp8DujUX",
     "__v": 0
+    
+    /////////////////////////////////////////////////
     
     
     /api/get => Accept token and return the obj
@@ -36,6 +40,9 @@ There is three endpoins :
     "_id": "5b798326d509d04c5b887202",
     "token": "OXMkOp8DujUX",
     "__v": 0
+    
+    
+    /////////////////////////////////////////////////
     
     /api/vote => Accept token and point (point must be 1 for votting a1 or 2 for votting a2)
     
